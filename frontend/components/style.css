@@ -1,0 +1,10 @@
+.main-container {
+  height: calc(100dvh - 220px);
+  overflow-y: auto;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

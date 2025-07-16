@@ -29,7 +29,7 @@ router.post("/", async (req: any, res: any) => {
 
     res.status(HTTPCodes.OK).json({ suggestions: querySuggestions });
   } catch (error: any) {
-    console.error("Search error:", error?.message);
+    console.error("Search suggestion error:", error?.message);
     res.status(HTTPCodes.OK).json({ suggestions: null });
   }
 });

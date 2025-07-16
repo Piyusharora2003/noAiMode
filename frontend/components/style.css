@@ -8,3 +8,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.search-bar-container {
+  position: relative;
+}
+
+.suggestion-box {
+  position: absolute;
+  bottom: -10px;
+  width: 75%;
+  left: auto;
+  right: auto;
+}
